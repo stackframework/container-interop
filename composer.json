@@ -1,12 +1,15 @@
 {
-    "name": "stackframework/container-interop",
-    "type": "library",
-    "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-    "homepage": "https://github.com/container-interop/container-interop",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Interop\\Container\\": "src/Interop/Container/"
-        }
+  "name": "stackframework/container-interop",
+  "type": "library",
+  "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+  "homepage": "https://github.com/container-interop/container-interop",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Interop\\Container\\": "src/Interop/Container/"
     }
+  }
 }
