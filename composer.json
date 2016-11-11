@@ -1,5 +1,5 @@
 {
-    "name": "container-interop/container-interop",
+    "name": "stackframework/container-interop",
     "type": "library",
     "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
     "homepage": "https://github.com/container-interop/container-interop",
